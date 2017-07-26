@@ -1,0 +1,69 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="main.master.cs" Inherits="main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>驾校在线理论考试题库</title>
+    <link href="css/css.css" type="text/css" rel="stylesheet" />
+    <link href="css/css300.css" type="text/css" rel="stylesheet" />
+    <link href="css/ShowDialog.css" type="text/css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="top_nav">
+        <div class="w970">
+            <asp:Panel ID="Panel1" runat="server">
+                <a href="Regsis.aspx" class="lashou" style="font-family: 微软雅黑; font-weight: normal;">
+                    <span>注册</span></a> <a href="Login.aspx" class="lashou"><span style="font-family: 微软雅黑;
+                        font-weight: normal;">登录</span></a>
+            </asp:Panel>
+            <asp:Panel ID="Panel2" runat="server" Visible="false">
+                <asp:Label ID="lbinfo" runat="server" Text=""></asp:Label>
+                <asp:LinkButton ID="lbtnCancel" runat="server" OnClick="lbtnCancel_Click">注销</asp:LinkButton>
+            </asp:Panel>
+        </div>
+    </div>
+    <div class="main_nav">
+        <div class="left">
+        </div>
+        <div class="links">
+            <a  href="Default.aspx">章节练习</a> <a href="error.aspx" target="_blank">错题练习</a> <a href="test.aspx" target="_blank">
+                模拟考试</a><a href="paperlist.aspx" target="_blank">
+                参加考试</a>
+        </div>
+        <div class="right">
+        </div>
+    </div>
+    <div class="sub_nav">
+        <div class="left">
+        </div>
+        <div class="middle">
+        </div>
+        <div class="right">
+        </div>
+    </div>
+    <div class="clear">
+    </div>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+    <div class="clear">
+    </div>
+    <div id="footposdiv">
+    </div>
+    <div class="clear">
+    </div>
+    <div class="foot">
+        <div class="line">
+        </div>
+        <div class="ourpingtai">
+            <a href="admin/Login.aspx">后台登录</a>
+        </div>
+    </div>
+    <div style="display: none">
+    </div>
+    </form>
+</body>
+</html>

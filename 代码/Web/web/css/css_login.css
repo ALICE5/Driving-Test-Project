@@ -1,0 +1,237 @@
+﻿@charset "utf-8";
+/* CSS Document */
+*{ margin:0 ; padding:0 }
+body{ font-size:12px; font-family:"Microsoft YaHei"; line-height:24px;background:url(../images/topbgbg.png) repeat-x; color:#595959}
+a{ color:#595959 ; text-decoration:none;}
+li{ list-style:none}
+img { border:0}
+form{ margin:0 ; padding:0; }
+.clear{ clear:both; display:block; height:0 ; overflow:hidden}
+.top { width:966px; margin:0 auto;   height:67px}
+.logo { margin:8px; float:left}
+input{ vertical-align:middle}
+.menu ul li, .main .left .login .login_top,.login_con td .btn,.login_con .reg a,.right .content ul .btn_tijiao,.right .content ul .btn_quxiao { background:url(../images/allbg.png)}
+
+/*div 图片居中*/
+.picmidd{*position:absolute; top:50%; } 
+.picmidd img{*position:relative; top:-50%; left:-50%; } 
+.picmidddiv{ text-align:center; vertical-align:middle; position:relative; *float:left; display:table-cell;}
+
+.indexleft{ clear:left; float:left; width:257px; overflow:hidden}
+.indexleft .umenu{height:14px; background:url(../images/l_u_t.png); padding:5px 0px 7px 9px;}
+.indexleft .umenu div{ width:62px; height:14px;}
+.indexleft .umenu .bginfo{ background:url(../images/i_l_t_m.png)}
+.indexleft .umenu .bglink{ background:url(../images/i_l_l_m.png)}
+.indexleft .uinfo{width:253px; height:131px; border:1px solid #E1DFDF; padding:1px; background:url(../images/i_l_m_b.png) bottom repeat-X}
+.indexleft .uinfo .uface{float:left; width:85px; height:85px; padding:14px 5px; overflow:hidden;}
+.indexleft .uinfo .uface .picmidddiv{width:85px; height:85px;}
+.indexleft .uinfo .udeta{ float:left; padding-top:10px; line-height:22px; overflow:hidden;font-family: Arial,'Microsoft YaHei'; width:134px; white-space:nowrap}
+.indexleft .links{width:253px; height:251px; border:1px solid #E1DFDF; padding:1px; margin-top:10px}
+.indexleft .links dl{ width:100%; height:67px;}
+.indexleft .links .fir{background:url(../images/i_l_sp.png) bottom center no-repeat;}
+.indexleft .links dl dt{ width:85px; height:66px; float:left; background-position:center; background-repeat:no-repeat;}
+.indexleft .links dl .mn1{background-image:url(../images/mnks1.png)}
+.indexleft .links dl .mn2{background-image:url(../images/mnks2.png)}
+.indexleft .links dl dd{ line-height:21px;}
+.indexleft .links dl .fd{ padding-top:14px}
+.indexleft .links dl dd a{ font-weight:bold}
+.indexleft .links dl dd a:hover{ color:#ff0000; text-decoration:underline}
+.indexleft .links .alllink{ width:242px; margin:0 auto;}
+.indexleft .links .alllink li{ float:left; width:121px; height:47px;}
+.indexleft .links .alllink li a{ display:block; width:100px; height:35px; margin:0 auto; background:url(../images/i_l_l_bg.png); text-align:center; color:#426D97; font-weight:bold; line-height:35px}
+
+
+.minimenu{ float:right; margin-right:8px; width:550px; margin-top:8px; text-align:right; color:#dee1f4}
+.minimenu a{color:#3ba3e1; margin:0 12px;}
+
+.menubg{  height:38px; background:url(../images/menubg.png); }
+.menu{ width:970px; margin:0 auto; clear:both}
+.menu ul li{ width:116px; height:38px;  background-position:0 0 ; float:left; text-align:center;}
+.menu ul li  a{ font-size:14px; font-weight:bold ; color:#FFF; margin-top:8px; display:inline-block}
+.menu ul .menuon{ background-position:-116px 0}
+
+.main{ width:970px; margin:0 auto; margin-top:10px;}
+.main .left{ float:left; width:257px;}
+.main .left .login{ height:400px}
+.main .left .login .login_top{ background-position:0 -38px;    height:42px; color:#426d97; font-size:12px; font-weight:bold; line-height:30px; padding-left:19px;}
+.login_con{ background:#f8f8f8; height:357px; border:1px solid #e1dfdf; border-top:1px solid #f8f8f8;}
+
+#div_loginmsg{position:absolute; top:0px; left:75px; color:#ff0000}
+
+.login_con .login_Table{ width:206px ; margin:0 auto; margin-top:18px;}
+.login_con td{ height:40px; vertical-align:middle}
+.login_con td .inputtxt  { width:147px; height:21px; border:1px solid #d0d1d2; line-height:21px; color:#595959}
+.login_con td .code{ width:40px;height:21px; border:1px solid #d0d1d2; line-height:21px; color:#595959} 
+.codeimg{border:solid 1px #000000;}
+.login_con td .btn{ background-position:0 -143px; border:0 ; width:97px; height:30px; cursor:pointer}
+.login_con  .login_line{ height:1px; overflow:hidden; background:#e6e6e6;  width:226px; margin:18px auto}
+.login_con .userinfo{ width:206px; margin:0 auto; padding-top:20px;line-height:22px;}
+.login_con .userinfo dt{ width:70px; text-align:right; clear:both; float:left; font-weight:bold; padding-right:5px;}
+.login_con .userinfo dd{text-align:left; float:left; width:130px}
+
+.login_con .ulink{ width:196px; margin:0 auto;line-height:25px; font-size:14px}
+.login_con .ulink .s{ float:left; width:90px}
+
+.login_con .reg a{ display:block; background-position:0 -112px; width:174px; height:31px; margin:0 auto}
+
+.login_con .helplink{ width:200px; margin:0 auto ; margin-top:30px;}
+.login_con .helplink li{ width:100px; float:left}
+.login_con .helplink .r{ text-align:right}
+
+ 
+.ranging{ position:relative; background:url(../images/itemtopbg.png) repeat-x #f8f8f8; border:#E1DFDF solid 1px;  height:348px; width:255px;  margin-top: 10px; float:left;}
+.ranging .subtitle { border-bottom: 1px solid #E6E6E6;margin: 0 10px 10px;}
+.ranging .subtitle h3{font-size: 12px; line-height: 30px; color:#426D97; text-indent: 5px;}
+.ranging .linkmore{ position:absolute;right: 10px; top: 4px;}
+.ranging ul{ width:235px; margin-left:12px; line-height:25px;}
+.ranging ul li{ float:left; white-space:nowrap; overflow:hidden}
+.ranging ul .b{ font-weight:bold}
+.ranging ul li span{padding-left:22px;display:inline-block; background-position: 0 3px;}
+.ranging .username{ width:130px; }
+.ranging .scores{ width:50px; }
+.ranging .costtime{ width:50px; text-align:center;}
+.ranging1{ background:url(../images/1.png) no-repeat  }
+.ranging2{ background:url(../images/2.png) no-repeat  }
+.ranging3{ background:url(../images/3.png) no-repeat  }
+.ranging4{ background:url(../images/4.png) no-repeat  }
+.ranging5{ background:url(../images/5.png) no-repeat  }
+.rangingn{ background:url(../images/n.png) no-repeat  }
+
+.main .right{ float:right; width:703px}
+.main .right .banner{ border:#e1dfdf 1px solid; padding:1px;height:233px; width:699px; overflow:hidden}
+
+.main .right .items{ width:703px;}
+.main .right .items .item{ position:relative; background:url(../images/itemtopbg.png) repeat-x #f8f8f8; border:#E1DFDF solid 1px;  height:151px; width:262px; margin-top: 10px;; float:left; margin-right:10px;}
+
+.main .right .items .item .subtitle { border-bottom: 1px solid #E6E6E6;margin: 0 10px 10px;}
+.main .right .items .item .subtitle h3{font-size: 12px; line-height: 30px; color:#426D97; text-indent: 5px;}
+.main .right .items .item .linkmore{ position:absolute;right: 10px; top: 4px;}
+.main .right .items .item .con{ width:230px; margin:0 auto}
+.main .right .items .smallitem{ width:153px; margin-right:0}
+.main .right .items .smallitem .con{ width:120px; margin:0 auto}
+.main .right .items .longitem{ width:344px; margin-right:0; height:168px;}
+.main .right .items .r{ float:right}
+
+.main .right .items .longitem ul{ width:306px; margin:0 auto; margin-left:16px;}
+.main .right .items .longitem ul .price{ display:inline-block; float:right}
+.main .right .items .longitem ul .price span{ color:#f24523}
+.main .right .items .longitem ul .links{ float:left} 
+
+.main .right .items .allitem{width: 701px;margin-right: 0;height: auto;overflow: hidden;}
+.main .right .items .allitem ul{width: 690px;margin: 10px auto 0px 25px;}
+.main .right .items .allitem ul li{width: 228px;float: left;height: 98px;overflow: hidden;}
+.main .right .items .allitem .sublogo{width: 70px;float: left;}
+.main .right .items .allitem .infos{width: 135px;float: left;margin-left: 15px;line-height: 20px;color: #b1b1b1;}
+.main .right .items .allitem .infos .name{font-size: 14px;font-weight: bold;color: #595959;}
+.main .right .items .allitem .infos .linkto{background: url(../images/openbtn.png) no-repeat;width: 66px;height: 27px;display: inline-block;line-height: 26px;text-align: center;margin-top: 5px;}
+
+.foot{ background:url(../images/footbg.png) repeat-x; height:121px; margin-top:20px; }
+.footcon{ text-align:center; width:970px ; margin:0 auto; padding-top:20px;}
+
+
+.right .title {border: 1px solid #E1DFDF;    padding: 1px;	height:29px;
+    width: 966px;
+}
+.right .title .bg{background: none repeat scroll 0 0 #F8F8F8;
+    width: 966px;
+}
+.right .title h2 {background: none repeat scroll 0 0 #F8F8F8; font-size:14px; width:138px; position: relative; height:29px; line-height:29px;  padding-left:20px; color:#426d97}
+.right .title .jiantou{ background:url(../images/righttitle.png);    display: block;  height: 33px;  position: absolute;  top: -2px;right:0;     width: 40px;}
+
+.right .content {border: 1px solid #E1DFDF; padding: 1px; margin-top:10px;width: 966px;}
+.right .content .bg{background: none repeat scroll 0 0 #F8F8F8; min-height:353px;font-size: 10pt;}
+.right .content h3{ border-bottom:1px solid #E6E6E6; height:34px; margin:0 20px; line-height:34px; font-size:14px; color:#426d97;  }
+.right .content h3 i{padding-left:100px; font-style:normal; font-weight:normal; height:34px;}
+.right .content h3 i input{ vertical-align:middle; margin:-2px 4px 0px 4px;}
+.right .content h3 i label{}
+.right .content ul{ width:602px; margin-left:80px; margin-top:30px;}
+.right .content ul ul{ width:602px; clear:both; margin:0px;}
+.right .content ul li{ float:left; height:45px;}
+.right .content ul .hsub{ width:89px; line-height:100px; clear:both; height:100px;}
+.right .content ul .huheadpic{ height:90px; width:90px; padding:5px 20px 5px 5px}
+.right .content ul .huheadpic .picmidddiv{height:90px; width:90px; background:#ffffff;}
+.right .content ul .heditpic{line-height:100px;height:100px; width:198px;}
+
+
+.right .content ul .sub{ width:89px; line-height:30px; clear:both}
+.right .content ul .input { width:206px;}
+.right .content ul .input  .inputtxts{ width:50px;height:28px; border-bottom:#e9e9e9 1px solid; border-top:#97a6a6 1px solid; border-left:#aabbbb 1px solid; border-right:#e9e9e9 1px solid; line-height:28px; padding:0 3px; color:#595959}
+.right .content ul .input  .inputtxt2{ width:191px; height:28px; border-bottom:#e9e9e9 1px solid; border-top:#97a6a6 1px solid; border-left:#aabbbb 1px solid; border-right:#e9e9e9 1px solid; line-height:28px; padding:0 3px; color:#595959}
+.right .content ul .info{ width:300px;line-height:28px;}
+.right .content ul .submit{ width:110px}
+.right .content ul .btn_tijiao{ border:0; width:100px; height:40px; background-position:0 -173px; cursor:pointer}
+.right .content ul .btn_quxiao{ border:0;width:100px; height:40px; background-position:0 -213px; cursor:pointer }
+.right .content ul .info .noton{border: 1px solid #e8e8e8 ; background:#f9f9f9; height:28px; width:294px; padding-left:6px; display:inline-block}
+.right .content ul .info .correct{display:inline-block; border:none ;background:url(../images/regright.png) center no-repeat;height:28px; width:28px;}
+.right .content ul .info .wrong{ border: 1px solid #ebadb0;background:url(../images/regwrong.png) 6px 6px no-repeat;height:28px; padding-left:30px; padding-right:10px; display:inline-block;  color:#b52726}
+.right .content ul .info .ignore{border:1px solid #b52726;height:28px;padding-left:10px; padding-right:10px;display:inline-block;  color:#b52726}
+.right .content ul .info .loading{border:1px solid #ebadb0;background:url(../images/reg/loading.gif) 6px 6px no-repeat;height:28px; padding-left:30px; padding-right:10px; display:inline-block;  color:#b52726}
+.right .content ul .linput { width:320px;}
+.right .content ul .sinfo{ width:100px;}
+.right .content ul .hhsub{ width:89px; line-height:130px; height:130px; clear:both}
+.right .content ul .hhinput{ width:368px; height:130px;}
+.right .content ul .hhinput textarea{width:350px;height:118px; border-bottom:#e9e9e9 1px solid; border-top:#97a6a6 1px solid; border-left:#aabbbb 1px solid; border-right:#e9e9e9 1px solid; line-height:28px; padding:0 3px; color:#595959; font-size:14px;}
+.right .content ul .hhinfo{ width:100px;line-height:28px; height:130px}
+ 
+.alipay{ margin-top:20px;  margin-left:25px;}
+.money{ border-bottom:#e9e9e9 1px solid; border-top:#97a6a6 1px solid; border-left:#aabbbb 1px solid; border-right:#e9e9e9 1px solid; }
+
+.loginleft{ clear:both;float:left; margin-top:-5px; width:512px;background:url(../images/login_bg.png); height:400px;margin-left: 45px;_margin-left: 25px;}
+.otherlogins{float:left;width:512px; margin-top:345px; text-align:center}
+.otherlogins a{ margin:0 5px; display:inline-block;}
+
+
+
+.loginbox{ float:right; margin:56px 39px 0px 0px; width:319px; _margin-right:20px}
+.loginbox .ltop{ width:319px; height:5px; background:url(../images/login_box_top.png); overflow:hidden}
+.lmain{ width:319px; height:318px; background:url(../images/login_box_mainbg.png);}
+.lmain .lg{ clear:both;height:43px; float:right; width:288px; background:url(../images/login_box_lg.png) left center no-repeat; position:relative}
+.lmain .lg div{ position:absolute; left:130px; line-height:43px; color:#ff0000}
+.lmain .sp{ clear:both; width:100%; height:18px; background:url(../images/login_box_split.png) center top no-repeat;}
+.lmain .box{ width:100%; color:#676767; margin-bottom:3px}
+.lmain .box li{ height:39px;overflow:hidden}
+.lmain .box .all{ width:100%; height:0px; clear:both; overflow:hidden}
+.lmain .box .l{ width:98px; float:left; clear:left; text-align:right; line-height:20px;}
+.lmain .box .l span{ line-height:30px}
+.lmain .box .r{ width:210px; float:right; clear:right}
+.lmain .box .r input{ width:155px; height:20px; border:solid 1px #d0d1d2; vertical-align:top; margin-right:5px}
+.lmain .box .r .sinp{ width:40px;}
+.lmain .box .r img{ width:62px; height:20px; margin-right:10px; cursor:pointer; border:solid 1px #cccccc}
+.lmain .box .r label{ color:#ff0000;}
+.lmain .box .m{  float: left;margin-left: 11px;margin-right: 15px;margin-top: 3px;width: 60px;}
+.lmain .box .m .btn{height:30px;width: 97px;border: 0px;cursor: pointer;background: url(../images/userlogin.png) no-repeat; margin:0px 10px 0px 0px;}
+.lmain .box .sr{float: left; margin-top: 3px; width: 102px;}
+.lmain .box .sr .rem{ width:15px; height:15px;vertical-align:middle}
+.lmain .bbg{clear:both; width:100%; height:1px; background:url(../images/login_box_bbg.png) center top no-repeat; margin-top:10px; overflow:hidden;}
+.lmain .reg{width:174px; display:block;background: url(../images/allbg.png) 0px -112px;height: 31px; overflow:hidden; margin:0 auto;margin-bottom:13px; margin-top:10px;}
+.lmain .bottombg{ width:313px; height:26px; margin:0 auto; background:url(../images/login_b_bg.png)}
+.lbottom{ clear:both;width:319px; height:11px; background:url(../images/login_box_bottom.png)}
+.lbottoml{float:left; height:26px; width:2px; background:url(../images/login_box_left2.png)}
+.lbottomr{float:right; height:26px; width:2px; background:url(../images/login_box_right2.png)}
+
+
+.faq{ margin:10px 20px;}
+.faq h4 {color: #C62700;font-family: 'Microsoft YaHei';font-size: 12px;line-height: 35px; margin: 2px 0; padding: 0;}
+.faq p {font-family: 'Microsoft YaHei'; font-size: 12px;line-height: 20px; padding: 0 0 0 2em;}
+
+
+.peerpay{width: 970px; clear: both; margin: 0 auto}
+.peerpay .right{ width:970px}
+.peerpay .alipay { margin-left: 165px; margin-top: 40px;}
+
+.findpwd{width: 970px; clear: both; margin: 0 auto}
+.findpwd .right{  width:960px}
+.findpwd .right .content ul { margin:30px auto 30px 295px}
+
+.register{width: 970px; clear: both; margin: 0 auto}
+.register .right{  width:970px}
+
+/*修改头像*/
+.faceh3{font-size:12px; font-weight:normal; padding-left:10px; color:#000000;}
+#faceupload{ clear:both;width:580px; margin:0 auto; border:solid 1px #EBEBEB; background:#ffffff; margin-bottom:20px;}
+#faceupload .l{ height:54px; line-height:54px; width:100px; text-align:center;float:left}
+#faceupload .r{ float:left; padding:4px 0px;height:46px; line-height:46px;}
+#faceupload .hl{ height:95px; line-height:95px; width:100px; text-align:center;float:left;display:none}
+#faceupload .hr{ float:left; padding:5px 0px;height:86px; line-height:86px; display:none}
+#faceupload .hr .picmidddiv{height:85px; width:85px; border:solid 1px #cccccc}
+.subbtn{ padding:5px 0px 5px 100px; clear:both}

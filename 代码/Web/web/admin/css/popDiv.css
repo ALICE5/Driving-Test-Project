@@ -1,0 +1,112 @@
+﻿
+.mydiv
+{
+	background-color: white;
+	border: 1px solid gray;
+	font-size: 15px;
+	font-family: Microsoft Yahei;
+	z-index: 999;
+	width: 690px;
+	height: 390px;
+	left: 40%;
+	top: 30%;
+	padding-left: 0;
+	margin-left: -150px !important; /*FF IE7 该值为本身宽的一半 */
+	margin-top: -60px !important; /*FF IE7 该值为本身高的一半*/
+	margin-top: 0px;
+	position: fixed !important; /* FF IE7*/
+	position: absolute; /*IE6*/
+	_top: expression(eval(document.compatMode && document.compatMode== 'CSS1Compat' ) ? documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 : /*IE6*/ document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2); /*IE5 IE5.5*/
+}
+
+.mydiv-GiveOut
+{
+	background-color: white;
+	border: 1px solid gray;
+	font-size: 15px;
+	font-family: Microsoft Yahei;
+	z-index: 999;
+	width: 800px;
+	height: 590px;
+	left: 20;
+	top: 20;
+	margin-left: 0px !important; /*FF IE7 该值为本身宽的一半 */
+	margin-top: 0px !important; /*FF IE7 该值为本身高的一半*/
+	margin-top: 0px;
+	position: fixed !important; /* FF IE7*/
+	position: absolute; /*IE6*/
+	_top: expression(eval(document.compatMode && document.compatMode== 'CSS1Compat' ) ? documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 : /*IE6*/ document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2); /*IE5 IE5.5*/
+}
+
+.mydiv1
+{
+	background-color: white;
+	border: 1px solid gray;
+	font-size: 15px;
+	font-family: Microsoft Yahei;
+	padding-left: 10px;
+	z-index: 999;
+	width: 590px;
+	height: 430px;
+	left: 40%;
+	top: 30%;
+	margin-left: -150px !important; /*FF IE7 该值为本身宽的一半 */
+	margin-top: -60px !important; /*FF IE7 该值为本身高的一半*/
+	margin-top: 0px;
+	position: fixed !important; /* FF IE7*/
+	position: absolute; /*IE6*/
+	_top: expression(eval(document.compatMode && document.compatMode== 'CSS1Compat' ) ? documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 : /*IE6*/ document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2); /*IE5 IE5.5*/
+}
+.div_a1_a1
+{
+	width: 50px;
+	margin-left: 550px;
+}
+
+.div_a1
+{
+	width: 590px;
+	height: 25px;
+	font-family: Microsoft Yahei;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10px;
+}
+.div_a2
+{
+	width: 590px;
+	height: 25px;
+	font-family: Microsoft Yahei;
+	margin-left: auto;
+	margin-right: auto;
+}
+.bg, .popIframe
+{
+	background-color: #666;
+	display: none;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0; /*FF IE7*/
+	filter: alpha(opacity=50); /*IE*/
+	opacity: 0.5; /*FF*/
+	z-index: 1;
+	position: fixed !important; /*FF IE7*/
+	position: absolute; /*IE6*/
+	_top: expression(eval(document.compatMode && document.compatMode== 'CSS1Compat' ) ? documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 : /*IE6*/ document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);
+}
+
+.popIframe
+{
+	filter: alpha(opacity=0); /*IE*/
+	opacity: 0; /*FF*/
+}
+
+.bar
+{
+	background: none repeat scroll 0 0 #96CDCD;
+	width: 100%;
+	height: 25px;
+	margin-bottom: 4px;
+	border-bottom: solid 1px gray;
+}
